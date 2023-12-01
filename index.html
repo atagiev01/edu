@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <header class="header">
+
+        <div class="logo">
+                <img src="./images/LOGO_A.T.jpeg" alt="">
+        </div>
+        <nav class="navbar">
+            <a href="#home"> <i class="fas fa-angle-right"></i> Ev </a>
+            <a href="#category"> <i class="fas fa-angle-right"></i> Kateqoriya </a>
+            <a href="#about"> <i class="fas fa-angle-right"></i> Haqqında </a>
+            <a href="#courses"> <i class="fas fa-angle-right"></i> Tədris </a>
+            <a href="#contact"> <i class="fas fa-angle-right"></i> Əlaqə </a>
+        </nav>
+        <!-- <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div> -->
+
+        <p class="credit"><span><a href="#">A/Taghiyev </a>tərəfindən</span></p>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="images/home-img.svg" alt="">
+        </div>
+
+        <div class="content">
+            <span>Onlayn Təhsil</span>
+            <h3>Daha yaxşı gələcək buradan başlayır.</h3>
+            <p>İntensiv formada hər gün tədris + praktiki məşğələ ilə rahat və qalıcı şəkildə öyrəndikdən sonra təcrübə proqramlarına birbaşa qəbul ol </p>
+            <a href="#courses" class="btn">Bütün kurslar</a>
+        </div>
+    </section>
+
+    <section class="info-container">
+
+        <div class="box">
+            <i class="fas fa-user-graduate"></i>
+            <div class="info">
+                <h3>+252</h3>
+                <p>Tələbə</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="info">
+                <h3>+5</h3>
+                <p>Kurs</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <div class="info">
+                <h3>+13</h3>
+                <p>Müəllim</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-book"></i>
+            <div class="info">
+                <h3>+320</h3>
+                <p>Metodika</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="category" id="category">
+
+        <div class="heading">
+            <h3>ƏSAS KATEQORİYAMIZ</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>Proqramlaşdırma</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, reiciendis.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Qrafik dizayn</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, reiciendis.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>marketinq</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, reiciendis.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Biznes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, reiciendis.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Ingilis dili</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, reiciendis.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="image">
+            <img src="images/about-img.svg" alt="">
+        </div>
+        <div class="content">
+            <span>Haqqımızda</span>
+            <h3>Elektron öyrənmə üçün ən yaxşı onlayn platforma.</h3>
+            <p>Gələcəyini necə inşa etmək istəyirsən?</p>
+            <a href="#" class="btn">Ətraflı</a>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+
+        <div class="heading">
+            <h3>Populyar kurslar</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" onclick="toggleContentVisibility(this)">
+                <div class="image">
+                    <img src="images/course-1.svg" alt="">
+                    <h3>front-end development</h3>
+                </div>
+                <div class="content">
+                
+                    <h3>front-end development</h3>
+                    <p>Front-end Kadr Yetişdirmə Proqramı</p>
+                    <a href="#" class="btn-2">Kursu seç</a>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleContentVisibility(this)">
+                <div class="image">
+                    <img src="images/course-2.svg" alt="">
+                    <h3>İngilis dili</h3>
+                </div>
+                <div class="content">
+                
+                    <h3>İngilis dili</h3>
+                    <p>Necə sürətli ingilis dilini öyrənə biləcəyimizə dair bir araya gətirdiyimiz 10 tövsiyyəni tətbiq etdik və beləliklə sizdə ingilis dilini daha yaxşı öyrənə bilərsiniz.</p>
+                    <a href="#" class="btn-2">Kursu seç</a>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleContentVisibility(this)">
+                <div class="image">
+                    <img src="images/course-4.svg" alt="">
+                    <h3>Marketinq</h3>
+                </div>
+                <div class="content">
+                
+                    <h3>Marketinq</h3>
+                    <p>Marketinq Marketinq Marketinq MarketinqMarketinqMarketinq</p>
+                    <a href="#" class="btn-2">Kursu seç</a>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleContentVisibility(this)">
+                <div class="image">
+                    <img src="images/course-5.svg" alt="">
+                    <h3>Qrafik Dizayn</h3>
+                </div>
+                <div class="content"  id="content">
+                
+                    <h3>Qrafik Dizayn</h3>
+                    <p>Qrafik DizaynQrafik DizaynQrafik DizaynQrafik DizaynQrafik Dizayn</p>
+                    <a href="#" class="btn-2">Kursu seç</a>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleContentVisibility(this)">
+                <div class="image">
+                    <img src="images/course-6.svg" alt="">
+                    <h3>Biznes</h3>
+                </div>
+                <div class="content">
+                
+                    <h3>Biznes</h3>
+                    <p>biznesbzinasnas</p>
+                    <a href="#" class="btn-2">Kursu seç</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h3>Əlaqə</h3>
+        </div>
+        <div class="row">
+            <div class="contact-info-container">
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <div class="info">
+                        <h3>Nömrə :</h3>
+                        <p>+994-55-00-00</p>
+                        <p>+994-50-00-00</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info">
+                        <h3>email :</h3>
+                        <p>a/t@gmail.com</p>
+                        <p>a/t/2@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-map"></i>
+                    <div class="info">
+                        <h3>Adres :</h3>
+                        <p>Bakı, 99</p>
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Adınız" name="" id="">
+                    <input type="email" placeholder="email-iniz" name="" id="">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Nömrəniz" name="" id="">
+                    <input type="text" placeholder="Müraciət haqqında" name="" id="">
+                </div>
+                <textarea name="" placeholder="Mesajınız" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Göndər" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/132f54ee8c.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
