@@ -142,8 +142,7 @@ section:nth-child(even) {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  min-height: 100vh;
-  height: 100%;
+
 }
 .home .image {
   flex: 1 1 40rem;
